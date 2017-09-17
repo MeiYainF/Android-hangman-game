@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+
+    <!-- Layout: main_acivity -->
+    <string name="english">English</string>
+    <string name="norwegian">Norwegian</string>
+    <string name="play">Click to play</string>
+    <string name="spill">Klikk for spill</string>
+    <string name="main_menu">Spill meny</string>
+    <string name="exit">EXIT</string>
+
+    <!-- Layout: play_activity -->
+    <string name="game_start">Start spill!</string>
+    <string name="game_rules">
+        Spille regler: \n
+        \n 1. Det blir gitt et tilfelig ord. Prøv å gjette fram til det riktige ordet ved å velge en og en bokstav
+        \n 2. Du taper hvis du gjetter 10 feile bokstaver.
+        \n 3. Du vinner hvis du gjetter det riktig ordet med mindre enn 10 feile bokstaver.
+        \n\n NB! Det samme ordet kan ikke dukke opp igjen mer enn en gang.</string>
+
+    <!-- Layout: hangman_activity -->
+    <string name="game_rules_button">Spille regler</string>
+    <string name="game_lost">Du tapte!</string>
+    <string name="game_won">Du vant!</string>
+    <string name="game_end_message">Klikk "Fortsett" for å få et nytt ord</string>
+    <string name="game_continue">Fortsett</string>
+    <string name="won">Vant</string>
+    <string name="lost">Tapt</string>
+    <string name="word_total">Ord totalt</string>
+    <string name="word_left">Ord igjen</string>
+    <string name="game_end">
+        Ingen flere ord :(
+        \n\nResultat,</string>
+    <string name="game_new">Nytt spill</string>
+
+</resources>

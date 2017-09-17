@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.meiyain.hangman.MainActivity">
+
+    <item
+        android:id="@+id/main_menu"
+        android:showAsAction="always"
+        android:title="@string/main_menu" />
+    <item
+        android:id="@+id/rules_button"
+        android:showAsAction="always"
+        android:title="@string/game_rules_button" />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman</string>
+
+    <!-- Layout: main_menu -->
+    <string name="english">English</string>
+    <string name="norwegian">Norwegian</string>
+    <string name="play">Click to play</string>
+    <string name="spill">Klikk for spill</string>
+    <string name="main_menu">Game menu</string>
+    <string name="exit">EXIT</string>
+
+    <!-- Layout: play_menu -->
+    <string name="game_start">Start game!</string>
+    <string name="game_rules">
+        Game rules:\n
+        \n1. There will be one random word given. Try to guess the right word by choosing one and one letter.
+        \n2. You loose when you choose wrong letters 10 times and win if you guesses the right word with less than 10 tries.\n
+        \nNB! The same word can not be given more than one time.</string>
+
+    <!-- Layout: hangman_activity -->
+    <string name="game_rules_button">Game rules</string>
+    <string name="game_lost">You lost!</string>
+    <string name="game_won">You won!</string>
+    <string name="game_end_message">Click "Continue" for new word</string>
+    <string name="game_continue">Continue</string>
+    <string name="won">Won</string>
+    <string name="lost">Lost</string>
+    <string name="word_total">Word total</string>
+    <string name="word_left">Word left</string>
+    <string name="game_end">
+        No more words left :(
+        \n\nResults,</string>
+    <string name="game_new">New game</string>
+
+</resources>
